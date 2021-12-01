@@ -17,6 +17,7 @@ except ImportError:
     raise ImageHorizonLibraryError('There is something wrong with '
                                    'Robot Framework or it is not installed.')
 
+
 try:
     from tkinter import Tk as TK
 except ImportError:
